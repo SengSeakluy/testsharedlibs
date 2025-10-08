@@ -1,7 +1,8 @@
-def add(x+y){
-  echo "Sum of ${x} and ${y} is ${x+y}"
+
+def add(int a, int b) {
+    echo "➕ ${a} + ${b} = ${a + b}"
 }
 
-def mul(x*y){
-  echo "multiplication of ${x} and ${y} is ${x*y}"
+def mul(int a, int b) {
+    echo "✖️ ${a} * ${b} = ${a * b}"
 }
